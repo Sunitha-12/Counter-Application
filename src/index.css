@@ -1,0 +1,111 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.con {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  transition: all 0.3s ease;
+}
+
+.con:hover {
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 24px;
+  color: #800000;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.dis {
+  margin-bottom: 20px;
+}
+
+#count {
+  font-size: 48px;
+  font-weight: bold;
+  color: #4a4a4a;
+  padding: 10px;
+  display: inline-block;
+  width: 100px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  border: 2px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.but {
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  background-color: #800000;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #a30000;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:active {
+  transform: scale(0.98);
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+body::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url('https://tse1.mm.bing.net/th?id=OIP.TgKIkkhl7iYZw3gZ_EZyEAHaFO&pid=Api&P=0&h=180');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  filter: blur(5px); 
+  z-index: -1; 
+}
+
+.con {
+  background-color: rgba(255, 255, 255, 0.8); /* Slight transparency */
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  text-align: center;
+  width: 300px;
+  position: relative;
+  z-index: 1;
+}
+
+
